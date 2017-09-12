@@ -1,0 +1,542 @@
+/*
+Theme Name: custom theme
+Theme URI: https://wordpress.org/themes/twentythirteen/
+Author: webParadise
+Author URI: https://wordpress.org/
+Description: ArtDent
+
+*/
+
+/*!
+ * Start Bootstrap - Landing Page (http://startbootstrap.com/template-overviews/landing-page)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
+ */
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+.test-image {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    /*background: url(./img/services.png) no-repeat center center;*/
+    background-size: cover;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    font-size: 5em;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.intro-social-buttons i {
+    font-size: 80%;
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+    .photo-ipad {
+        width: 150px;
+    }
+}
+
+
+@media (max-width: 767px) {
+
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    font-size: 3em;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
+
+/* For open page like full-height */
+.container-full-height {
+    position: relative;
+    min-height: 100%;
+    /*padding-top: 464px;*/
+}
+
+.content-section-b {
+    padding-bottom: 120px;
+}
+
+.header-container {
+    background: none;
+    z-index: 2;
+    position: relative;
+}
+
+.header-nav {
+    background: none;
+    opacity: 1;
+
+}
+
+/*menu links color*/
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: rgba(83, 210, 41, 1);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(255, 41, 30, 1);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(255, 187, 170, 1);
+}
+
+.navbar-toogler {
+    /*float: right;*/
+}
+
+.headerslider {
+    width: 100%;
+    height: 65%;
+    min-height: 600px;
+    position: relative;
+    left: 0;
+    top: 0;
+    z-index: 0;
+}
+
+/*.headerslider > div {*/
+    /*top: 0;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*min-height: 600px;*/
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*background-size: cover;*/
+/*}*/
+
+.container.person-container {
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    top: 16px;
+    margin-left: -470px;
+    z-index: 0;
+    border-top: 106px solid transparent;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.person {
+    width: 560px;
+    height: 590px;
+    background: url(./img/marianna.png) no-repeat;
+    background-size: auto 100%;
+    float: left;
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    height: 100%;
+}
+
+.bar {
+
+}
+
+.phone {
+    float: right;
+}
+
+.logo {
+    margin-top: 10px;
+}
+
+.telephone-list {
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.telephone-list-element {
+
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+/*custom header*/
+
+.header-wrapper {
+    background: #343434;
+}
+
+.custom-header-bar {
+    background: #343434;
+}
+
+.custom-nav {
+    background: #343434 !important;
+}
+
+
+
+/* personel */
+
+.img-person-left {
+    padding-left: 0;
+}
+
+.img-person-right {
+    padding-right: 0;
+}
+
+.img-fluid {
+    /*height: 80%;*/
+}
+
+.col-description {
+    padding-top: 50px;
+}
+
+/*pricelist*/
+
+.pricelist {
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.pricelist tr {
+    background: #ededed;
+}
+
+.pricelist tr:nth-child(2n) {
+    background: transparent;
+}
+
+.pricelist tr td:first-child {
+    text-align: left;
+    padding-left: 10px;
+    color: #6e6e6e;
+}
+
+.pricelist tr td:last-child {
+    text-align: right;
+    padding-right: 10px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.pricelist tr td {
+    font-size: 13px;
+    line-height: 15px;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+}
+
+.section-footer {
+    position: absolute;
+    width: 100%;
+    background: red;
+    bottom: 0;
+
+}
+
+.padding-footer-list {
+    padding-top: 15px;
+}
+
+.padding-footer-list > li {
+
+    padding-top: 15px;
+
+}
+
+/*
+/*\
+ * Restore Bootstrap 3 "hidden" utility classes.
+\*/
+
+/* Breakpoint XS */
+@media (max-width: 575px) {
+    .hidden-xs-down, .hidden-sm-down, .hidden-md-down, .hidden-lg-down, .hidden-xl-down,
+    .hidden-xs-up,
+    .hidden-unless-sm, .hidden-unless-md, .hidden-unless-lg, .hidden-unless-xl {
+        display: none !important;
+    }
+
+
+    .section-name {
+        background: #343434;
+        border-top: 1px solid rgba(255, 255, 255, 0.14);
+        position: absolute;
+        top: 82px;
+        text-align: center;
+    }
+
+
+
+
+}
+
+/* Breakpoint SM */
+@media (min-width: 576px) and (max-width: 767px) {
+    .hidden-sm-down, .hidden-md-down, .hidden-lg-down, .hidden-xl-down,
+    .hidden-xs-up, .hidden-sm-up,
+    .hidden-unless-xs, .hidden-unless-md, .hidden-unless-lg, .hidden-unless-xl {
+        display: none !important;
+    }
+
+    .section-name {
+        background: #343434;
+        border-top: 1px solid rgba(255, 255, 255, 0.14);
+        position: absolute;
+        top: 82px;
+        text-align: center;
+    }
+
+
+
+
+}
+
+/* Breakpoint MD */
+@media (min-width: 768px) and (max-width: 991px) {
+    .hidden-md-down, .hidden-lg-down, .hidden-xl-down,
+    .hidden-xs-up, .hidden-sm-up, .hidden-md-up,
+    .hidden-unless-xs, .hidden-unless-sm, .hidden-unless-lg, .hidden-unless-xl {
+        display: none !important;
+    }
+
+
+    .section-name {
+        background: #343434;
+        border-top: 1px solid rgba(255, 255, 255, 0.14);
+        position: absolute;
+        top: 82px;
+        text-align: center;
+    }
+
+
+
+
+}
+
+/* Breakpoint LG */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .hidden-lg-down, .hidden-xl-down,
+    .hidden-xs-up, .hidden-sm-up, .hidden-md-up, .hidden-lg-up,
+    .hidden-unless-xs, .hidden-unless-sm, .hidden-unless-md, .hidden-unless-xl {
+        display: none !important;
+    }
+
+
+    .section-name {
+    background: #343434;
+    border-top: 1px solid rgba(255, 255, 255, 0.14);
+    position: absolute;
+    top: 54px;
+    }
+
+
+}
+
+/* Breakpoint XL */
+@media (min-width: 1200px) {
+    .hidden-xl-down,
+    .hidden-xs-up, .hidden-sm-up, .hidden-md-up, .hidden-lg-up, .hidden-xl-up,
+    .hidden-unless-xs, .hidden-unless-sm, .hidden-unless-md, .hidden-unless-lg {
+        display: none !important;
+    }
+
+
+    .section-name {
+        background: #343434;
+        border-top: 1px solid rgba(255, 255, 255, 0.14);
+        position: absolute;
+        top: 54px;
+        /*top: 136px;*/
+    }
+
+
+
+}
+
+
+
+
+
+
+.absolute-top {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.36);
+}
+
+.absolute-banner {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    left: 15px;
+    z-index: 1030;
+    background: none;
+}
+
+.fixed-top {
+    background: rgba(202, 26, 26, 0.27);
+}
+
+/*.section-name {*/
+    /*background: #343434;*/
+    /*border-top: 1px solid rgba(255, 255, 255, 0.14);*/
+    /*position: absolute;*/
+    /*!*top: 54px;*!*/
+    /*top: 136px;*/
+/*}*/
+
+/*.section-name {*/
+    /*background: #343434;*/
+    /*border-top: 1px solid rgba(255, 255, 255, 0.14);*/
+    /*position: absolute;*/
+    /*!*top: 54px;*!*/
+    /*top: 82px;*/
+/*}*/
+
+.section-name-h {
+    color: #ffffff;
+    line-height: 70px;
+
+}
+
+.content-wrapper {
+    position: absolute;
+    top: 217px;
+    width: 100%;
+}
